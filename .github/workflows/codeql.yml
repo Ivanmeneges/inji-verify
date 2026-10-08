@@ -15,7 +15,7 @@ on:
     branches: [ "master", "develop", "release-0.10.x", "release-0.8.x", "release-0.9.x" ]
   schedule:
     - cron: '30 10 * * 2'
-    
+  
 jobs:
   analyze:
     name: Analyze (${{ matrix.language }})
